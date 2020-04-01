@@ -33,6 +33,10 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BYZ-38-t0r" id="cii-XD-tMu"/>
+                            <outlet property="delegate" destination="BYZ-38-t0r" id="Vxk-RE-pu4"/>
+                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="h2r-Mk-b4N"/>
                 </viewController>
