@@ -13,6 +13,10 @@
 		6532DF66243434F50091985F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6532DF64243434F50091985F /* Main.storyboard */; };
 		6532DF68243434F70091985F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6532DF67243434F70091985F /* Assets.xcassets */; };
 		6532DF6B243434F70091985F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6532DF69243434F70091985F /* LaunchScreen.storyboard */; };
+		65593138243509B7002050AF /* DesarrolloVideojuegos4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65593134243509B7002050AF /* DesarrolloVideojuegos4.pdf */; };
+		65593139243509B7002050AF /* DesarrolloVideojuegos1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65593135243509B7002050AF /* DesarrolloVideojuegos1.pdf */; };
+		6559313A243509B7002050AF /* DesarrolloVideojuegos2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65593136243509B7002050AF /* DesarrolloVideojuegos2.pdf */; };
+		6559313B243509B7002050AF /* DesarrolloVideojuegos3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65593137243509B7002050AF /* DesarrolloVideojuegos3.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6532DF67243434F70091985F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6532DF6A243434F70091985F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6532DF6C243434F70091985F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65593134243509B7002050AF /* DesarrolloVideojuegos4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DesarrolloVideojuegos4.pdf; sourceTree = "<group>"; };
+		65593135243509B7002050AF /* DesarrolloVideojuegos1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DesarrolloVideojuegos1.pdf; sourceTree = "<group>"; };
+		65593136243509B7002050AF /* DesarrolloVideojuegos2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DesarrolloVideojuegos2.pdf; sourceTree = "<group>"; };
+		65593137243509B7002050AF /* DesarrolloVideojuegos3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DesarrolloVideojuegos3.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,20 @@
 				6532DF67243434F70091985F /* Assets.xcassets */,
 				6532DF69243434F70091985F /* LaunchScreen.storyboard */,
 				6532DF6C243434F70091985F /* Info.plist */,
+				65593133243509B7002050AF /* Readers */,
 			);
 			path = PDFReader;
+			sourceTree = "<group>";
+		};
+		65593133243509B7002050AF /* Readers */ = {
+			isa = PBXGroup;
+			children = (
+				65593134243509B7002050AF /* DesarrolloVideojuegos4.pdf */,
+				65593135243509B7002050AF /* DesarrolloVideojuegos1.pdf */,
+				65593136243509B7002050AF /* DesarrolloVideojuegos2.pdf */,
+				65593137243509B7002050AF /* DesarrolloVideojuegos3.pdf */,
+			);
+			path = Readers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +146,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6532DF6B243434F70091985F /* LaunchScreen.storyboard in Resources */,
+				65593138243509B7002050AF /* DesarrolloVideojuegos4.pdf in Resources */,
+				65593139243509B7002050AF /* DesarrolloVideojuegos1.pdf in Resources */,
+				6559313A243509B7002050AF /* DesarrolloVideojuegos2.pdf in Resources */,
 				6532DF68243434F70091985F /* Assets.xcassets in Resources */,
 				6532DF66243434F50091985F /* Main.storyboard in Resources */,
+				6559313B243509B7002050AF /* DesarrolloVideojuegos3.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

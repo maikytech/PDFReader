@@ -12,7 +12,7 @@ import UIKit
 //UITableViewDelegate, UITableViewDataSource are protocols to manage tables.
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-   var cellContents = ["Maiky", "Jessica", "Gio", "Poseto Studio", "Interstellar War", "Anun Chronics"]
+   var cellContents = ["DesarrolloVideojuegos1", "DesarrolloVideojuegos2", "DesarrolloVideojuegos3", "DesarrolloVideojuegos4"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
