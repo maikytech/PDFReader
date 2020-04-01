@@ -1,2 +1,2 @@
 # PDFReader
-PDF Reader
+PDF Reader App created with Swift & Xcode.
