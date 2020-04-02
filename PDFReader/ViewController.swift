@@ -34,18 +34,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-            
-        print("Estoy pulsando la fila numero : \(indexPath.row)")
         
         let idPDFSelected = indexPath.row
         self.performSegue(withIdentifier: "SegueScreen2", sender: idPDFSelected)
     }
     
+    //sender indicates the number of PDFs that were   clicked
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             
         if (segue.identifier == "SegueScreen2") {
             
             let idPDFSelectedReceived = sender as! Int
+            
+            //Instance of ViewController2
+            let screen2:ViewController2 = segue.destination as! ViewController2
+            screen2.namePDFRecieved = cellContents[idPDFSelectedReceived]
+            
+            
         }
     }
 }

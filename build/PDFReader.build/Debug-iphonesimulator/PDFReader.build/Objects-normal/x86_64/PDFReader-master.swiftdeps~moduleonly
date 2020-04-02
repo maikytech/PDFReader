@@ -1,8 +1,8 @@
 version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
 options: "65383535e4a427585a25ae26b919ff1a"
-build_time: [1585791916, 899314000]
+build_time: [1585794078, 182325000]
 inputs:
-  "/Users/maiquicedeno/PosetoStudioFiles/AppleDeveloper/PDFReader/PDFReader/ViewController.swift": [1585789604, 287990690]
-  "/Users/maiquicedeno/PosetoStudioFiles/AppleDeveloper/PDFReader/PDFReader/ViewController2.swift": [1585791916, 850431669]
+  "/Users/maiquicedeno/PosetoStudioFiles/AppleDeveloper/PDFReader/PDFReader/ViewController.swift": [1585794073, 505276133]
+  "/Users/maiquicedeno/PosetoStudioFiles/AppleDeveloper/PDFReader/PDFReader/ViewController2.swift": [1585792252, 473780230]
   "/Users/maiquicedeno/PosetoStudioFiles/AppleDeveloper/PDFReader/PDFReader/AppDelegate.swift": [1585708405, 723154515]
   "/Users/maiquicedeno/PosetoStudioFiles/AppleDeveloper/PDFReader/PDFReader/SceneDelegate.swift": [1585708405, 733359364]
