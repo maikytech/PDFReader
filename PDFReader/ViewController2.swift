@@ -23,6 +23,7 @@ class ViewController2: UIViewController {
         showPDF()
     }
     
+    //Zoom is enable by default.
     func showPDF() {
         
         //PDF-file memory address
@@ -34,6 +35,7 @@ class ViewController2: UIViewController {
         //Show data in WebView
         WebViewPDF.load(dataPDF!, mimeType: "application/pdf", characterEncodingName: "utf-8", baseURL: PDFMemoryAdress)
     }
+    
     
 
     /*
