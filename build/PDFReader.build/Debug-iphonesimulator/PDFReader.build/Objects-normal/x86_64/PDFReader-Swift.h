@@ -245,11 +245,11 @@ SWIFT_CLASS("_TtC9PDFReader14ViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
+@class WKWebView;
 
 SWIFT_CLASS("_TtC9PDFReader15ViewController2")
 @interface ViewController2 : UIViewController
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified namePDF;
+@property (nonatomic, strong) IBOutlet WKWebView * _Null_unspecified WebViewPDF;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

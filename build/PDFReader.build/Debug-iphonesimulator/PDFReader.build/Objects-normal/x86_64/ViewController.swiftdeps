@@ -13,10 +13,8 @@ depends-top-level:
 - !private "=="
 - "AssignmentPrecedence"
 - "CastingPrecedence"
-- !private "FloatLiteralType"
 - "IndexPath"
 - "Int"
-- !private "IntegerLiteralType"
 - "StringLiteralType"
 - "UIStoryboardSegue"
 - "UITableView"
@@ -26,7 +24,6 @@ depends-top-level:
 - "UIViewController"
 - "ViewController"
 - !private "ViewController2"
-- !private "print"
 depends-member:
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
@@ -51,7 +48,6 @@ depends-member:
 - ["s7CVarArgP", "numberOfSections"]
 - ["s7CVarArgP", "numberOfSectionsInTableView"]
 - !private ["s7CVarArgP", "performSegue"]
-- !private ["s7CVarArgP", "print"]
 - ["s7CVarArgP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s7CVarArgP", "scrollViewDidEndDecelerating"]
 - ["s7CVarArgP", "scrollViewDidEndDragging"]
@@ -96,7 +92,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "numberOfSections"]
 - ["s28CustomDebugStringConvertibleP", "numberOfSectionsInTableView"]
 - !private ["s28CustomDebugStringConvertibleP", "performSegue"]
-- !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "row"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDecelerating"]
@@ -127,8 +122,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "CellStyle"]
 - !private ["s23CustomStringConvertibleP", "UITableViewCell"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
-- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "cellContents"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "destination"]
@@ -140,7 +133,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "numberOfSections"]
 - ["s23CustomStringConvertibleP", "numberOfSectionsInTableView"]
 - !private ["s23CustomStringConvertibleP", "performSegue"]
-- !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "row"]
 - ["s23CustomStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s23CustomStringConvertibleP", "scrollViewDidEndDecelerating"]
@@ -170,8 +162,6 @@ depends-member:
 - !private ["Se", "count"]
 - !private ["Se", "row"]
 - !private ["Se", "subscript"]
-- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
-- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SE", "count"]
 - !private ["SE", "row"]
 - !private ["SE", "subscript"]
@@ -190,7 +180,6 @@ depends-member:
 - ["SQ", "numberOfSections"]
 - ["SQ", "numberOfSectionsInTableView"]
 - !private ["SQ", "performSegue"]
-- !private ["SQ", "print"]
 - !private ["SQ", "row"]
 - ["SQ", "scrollViewDidChangeAdjustedContentInset"]
 - ["SQ", "scrollViewDidEndDecelerating"]
@@ -233,7 +222,6 @@ depends-member:
 - ["SH", "numberOfSections"]
 - ["SH", "numberOfSectionsInTableView"]
 - !private ["SH", "performSegue"]
-- !private ["SH", "print"]
 - !private ["SH", "row"]
 - ["SH", "scrollViewDidChangeAdjustedContentInset"]
 - ["SH", "scrollViewDidEndDecelerating"]
@@ -275,7 +263,6 @@ depends-member:
 - ["So8NSCodingP", "numberOfSections"]
 - ["So8NSCodingP", "numberOfSectionsInTableView"]
 - !private ["So8NSCodingP", "performSegue"]
-- !private ["So8NSCodingP", "print"]
 - ["So8NSCodingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSCodingP", "scrollViewDidEndDecelerating"]
 - ["So8NSCodingP", "scrollViewDidEndDragging"]
@@ -308,7 +295,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "numberOfSections"]
 - ["So26NSExtensionRequestHandlingP", "numberOfSectionsInTableView"]
 - !private ["So26NSExtensionRequestHandlingP", "performSegue"]
-- !private ["So26NSExtensionRequestHandlingP", "print"]
 - ["So26NSExtensionRequestHandlingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So26NSExtensionRequestHandlingP", "scrollViewDidEndDecelerating"]
 - ["So26NSExtensionRequestHandlingP", "scrollViewDidEndDragging"]
@@ -347,7 +333,6 @@ depends-member:
 - ["So8NSObjectC", "numberOfSectionsInTableView"]
 - !private ["So8NSObjectC", "performSegue"]
 - ["So8NSObjectC", "prepare"]
-- !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSObjectC", "scrollViewDidEndDecelerating"]
 - ["So8NSObjectC", "scrollViewDidEndDragging"]
@@ -383,7 +368,6 @@ depends-member:
 - ["So8NSObjectP", "numberOfSections"]
 - ["So8NSObjectP", "numberOfSectionsInTableView"]
 - !private ["So8NSObjectP", "performSegue"]
-- !private ["So8NSObjectP", "print"]
 - ["So8NSObjectP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So8NSObjectP", "scrollViewDidEndDecelerating"]
 - ["So8NSObjectP", "scrollViewDidEndDragging"]
@@ -416,10 +400,6 @@ depends-member:
 - !private ["ST", "count"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
-- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
-- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
-- !private ["s16TextOutputStreamP", "appendInterpolation"]
-- !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["So29UIAccessibilityIdentificationP", "CellStyle"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
@@ -439,7 +419,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "numberOfSections"]
 - ["So21UIAppearanceContainerP", "numberOfSectionsInTableView"]
 - !private ["So21UIAppearanceContainerP", "performSegue"]
-- !private ["So21UIAppearanceContainerP", "print"]
 - ["So21UIAppearanceContainerP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So21UIAppearanceContainerP", "scrollViewDidEndDecelerating"]
 - ["So21UIAppearanceContainerP", "scrollViewDidEndDragging"]
@@ -472,7 +451,6 @@ depends-member:
 - ["So18UIContentContainerP", "numberOfSections"]
 - ["So18UIContentContainerP", "numberOfSectionsInTableView"]
 - !private ["So18UIContentContainerP", "performSegue"]
-- !private ["So18UIContentContainerP", "print"]
 - ["So18UIContentContainerP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So18UIContentContainerP", "scrollViewDidEndDecelerating"]
 - ["So18UIContentContainerP", "scrollViewDidEndDragging"]
@@ -513,7 +491,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "numberOfSections"]
 - ["So18UIFocusEnvironmentP", "numberOfSectionsInTableView"]
 - !private ["So18UIFocusEnvironmentP", "performSegue"]
-- !private ["So18UIFocusEnvironmentP", "print"]
 - ["So18UIFocusEnvironmentP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So18UIFocusEnvironmentP", "scrollViewDidEndDecelerating"]
 - ["So18UIFocusEnvironmentP", "scrollViewDidEndDragging"]
@@ -563,7 +540,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "numberOfSections"]
 - ["So30UIPasteConfigurationSupportingP", "numberOfSectionsInTableView"]
 - !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
-- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - ["So30UIPasteConfigurationSupportingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So30UIPasteConfigurationSupportingP", "scrollViewDidEndDecelerating"]
 - ["So30UIPasteConfigurationSupportingP", "scrollViewDidEndDragging"]
@@ -602,7 +578,6 @@ depends-member:
 - ["So11UIResponderC", "numberOfSectionsInTableView"]
 - !private ["So11UIResponderC", "performSegue"]
 - ["So11UIResponderC", "prepare"]
-- !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So11UIResponderC", "scrollViewDidEndDecelerating"]
 - ["So11UIResponderC", "scrollViewDidEndDragging"]
@@ -636,7 +611,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "numberOfSections"]
 - ["So30UIResponderStandardEditActionsP", "numberOfSectionsInTableView"]
 - !private ["So30UIResponderStandardEditActionsP", "performSegue"]
-- !private ["So30UIResponderStandardEditActionsP", "print"]
 - ["So30UIResponderStandardEditActionsP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So30UIResponderStandardEditActionsP", "scrollViewDidEndDecelerating"]
 - ["So30UIResponderStandardEditActionsP", "scrollViewDidEndDragging"]
@@ -667,7 +641,6 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "numberOfSections"]
 - ["So20UIScrollViewDelegateP", "numberOfSectionsInTableView"]
 - !private ["So20UIScrollViewDelegateP", "performSegue"]
-- !private ["So20UIScrollViewDelegateP", "print"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidEndDecelerating"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidEndDragging"]
@@ -697,7 +670,6 @@ depends-member:
 - ["So16UIStateRestoringP", "numberOfSections"]
 - ["So16UIStateRestoringP", "numberOfSectionsInTableView"]
 - !private ["So16UIStateRestoringP", "performSegue"]
-- !private ["So16UIStateRestoringP", "print"]
 - ["So16UIStateRestoringP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So16UIStateRestoringP", "scrollViewDidEndDecelerating"]
 - ["So16UIStateRestoringP", "scrollViewDidEndDragging"]
@@ -731,7 +703,6 @@ depends-member:
 - ["So21UITableViewDataSourceP", "numberOfSections"]
 - ["So21UITableViewDataSourceP", "numberOfSectionsInTableView"]
 - !private ["So21UITableViewDataSourceP", "performSegue"]
-- !private ["So21UITableViewDataSourceP", "print"]
 - ["So21UITableViewDataSourceP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So21UITableViewDataSourceP", "scrollViewDidEndDecelerating"]
 - ["So21UITableViewDataSourceP", "scrollViewDidEndDragging"]
@@ -759,7 +730,6 @@ depends-member:
 - ["So19UITableViewDelegateP", "numberOfSections"]
 - ["So19UITableViewDelegateP", "numberOfSectionsInTableView"]
 - !private ["So19UITableViewDelegateP", "performSegue"]
-- !private ["So19UITableViewDelegateP", "print"]
 - ["So19UITableViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So19UITableViewDelegateP", "scrollViewDidEndDecelerating"]
 - ["So19UITableViewDelegateP", "scrollViewDidEndDragging"]
@@ -790,7 +760,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "numberOfSections"]
 - ["So18UITraitEnvironmentP", "numberOfSectionsInTableView"]
 - !private ["So18UITraitEnvironmentP", "performSegue"]
-- !private ["So18UITraitEnvironmentP", "print"]
 - ["So18UITraitEnvironmentP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So18UITraitEnvironmentP", "scrollViewDidEndDecelerating"]
 - ["So18UITraitEnvironmentP", "scrollViewDidEndDragging"]
@@ -824,7 +793,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "numberOfSections"]
 - ["So23UIUserActivityRestoringP", "numberOfSectionsInTableView"]
 - !private ["So23UIUserActivityRestoringP", "performSegue"]
-- !private ["So23UIUserActivityRestoringP", "print"]
 - ["So23UIUserActivityRestoringP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So23UIUserActivityRestoringP", "scrollViewDidEndDecelerating"]
 - ["So23UIUserActivityRestoringP", "scrollViewDidEndDragging"]
@@ -867,7 +835,6 @@ depends-member:
 - ["So16UIViewControllerC", "numberOfSectionsInTableView"]
 - !private ["So16UIViewControllerC", "performSegue"]
 - ["So16UIViewControllerC", "prepare"]
-- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So16UIViewControllerC", "scrollViewDidEndDecelerating"]
 - ["So16UIViewControllerC", "scrollViewDidEndDragging"]
@@ -903,7 +870,6 @@ depends-member:
 - ["9PDFReader14ViewControllerC", "numberOfSectionsInTableView"]
 - !private ["9PDFReader14ViewControllerC", "performSegue"]
 - ["9PDFReader14ViewControllerC", "prepare"]
-- !private ["9PDFReader14ViewControllerC", "print"]
 - ["9PDFReader14ViewControllerC", "scrollViewDidChangeAdjustedContentInset"]
 - ["9PDFReader14ViewControllerC", "scrollViewDidEndDecelerating"]
 - ["9PDFReader14ViewControllerC", "scrollViewDidEndDragging"]
@@ -946,7 +912,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSections"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSectionsInTableView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDecelerating"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewDidEndDragging"]
@@ -982,7 +947,6 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfSections"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfSectionsInTableView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performSegue"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndDecelerating"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewDidEndDragging"]
@@ -1026,7 +990,6 @@ depends-nominal:
 - "s23CustomStringConvertibleP"
 - !private "10Foundation12DataProtocolP"
 - !private "Se"
-- !private "s26DefaultStringInterpolationV"
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
@@ -1043,8 +1006,6 @@ depends-nominal:
 - !private "SY"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "ST"
-- !private "s27StringInterpolationProtocolP"
-- !private "s16TextOutputStreamP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -2292,6 +2253,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
 interface-hash: "6a2b4e540bf6b4f48b81c8172bca860c"

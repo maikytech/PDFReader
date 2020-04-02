@@ -7,20 +7,32 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController2: UIViewController {
     
-    
-    @IBOutlet weak var namePDF: UILabel!
+    @IBOutlet var WebViewPDF: WKWebView!
     
     var namePDFRecieved:String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        namePDF.text = namePDFRecieved!
+        print(namePDFRecieved!)
         
+        showPDF()
+    }
+    
+    func showPDF() {
         
+        //PDF-file memory address
+        let PDFMemoryAdress = URL(fileURLWithPath: Bundle.main.path(forResource: namePDFRecieved!, ofType: "pdf")!)
+        
+        //Transform PDF-file to Data
+        let dataPDF = try? Data(contentsOf: PDFMemoryAdress)
+        
+        //Show data in WebView
+        WebViewPDF.load(dataPDF!, mimeType: "application/pdf", characterEncodingName: "utf-8", baseURL: PDFMemoryAdress)
     }
     
 
