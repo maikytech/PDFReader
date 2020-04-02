@@ -3,6 +3,7 @@
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,10 +40,41 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="h2r-Mk-b4N"/>
+                    <connections>
+                        <segue destination="pJ8-8w-KRi" kind="show" identifier="SegueScreen2" id="j7d-jk-Ekm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="874.39999999999998" y="120.98950524737631"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="cCQ-3z-kUm">
+            <objects>
+                <viewController id="pJ8-8w-KRi" customClass="ViewController2" customModule="PDFReader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cUY-JU-BBk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="namePDF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhn-OB-tLs">
+                                <rect key="frame" x="130" y="304" width="130" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="baD-td-6hE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B5K-jx-mhT"/>
+                    <connections>
+                        <outlet property="namePDF" destination="dhn-OB-tLs" id="n5e-KD-KAr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPz-3Z-b2b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749.5999999999999" y="120.98950524737631"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CGE-3F-D2V">

@@ -32,5 +32,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            
+        print("Estoy pulsando la fila numero : \(indexPath.row)")
+        
+        let idPDFSelected = indexPath.row
+        self.performSegue(withIdentifier: "SegueScreen2", sender: idPDFSelected)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            
+        if (segue.identifier == "SegueScreen2") {
+            
+            let idPDFSelectedReceived = sender as! Int
+        }
+    }
 }
 
