@@ -18,6 +18,7 @@
 		6559313A243509B7002050AF /* DesarrolloVideojuegos2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65593136243509B7002050AF /* DesarrolloVideojuegos2.pdf */; };
 		6559313B243509B7002050AF /* DesarrolloVideojuegos3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65593137243509B7002050AF /* DesarrolloVideojuegos3.pdf */; };
 		6559313D24354C6E002050AF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6559313C24354C6E002050AF /* ViewController2.swift */; };
+		65C15FAE2436DDEE0066ECF2 /* BookLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65C15FAD2436DDEE0066ECF2 /* BookLogo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		65593136243509B7002050AF /* DesarrolloVideojuegos2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DesarrolloVideojuegos2.pdf; sourceTree = "<group>"; };
 		65593137243509B7002050AF /* DesarrolloVideojuegos3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DesarrolloVideojuegos3.pdf; sourceTree = "<group>"; };
 		6559313C24354C6E002050AF /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		65C15FAD2436DDEE0066ECF2 /* BookLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BookLogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				6532DF64243434F50091985F /* Main.storyboard */,
 				6532DF67243434F70091985F /* Assets.xcassets */,
 				6532DF69243434F70091985F /* LaunchScreen.storyboard */,
+				65C15FAD2436DDEE0066ECF2 /* BookLogo.jpg */,
 				6532DF6C243434F70091985F /* Info.plist */,
 				65593133243509B7002050AF /* Readers */,
 			);
@@ -155,6 +158,7 @@
 				6532DF68243434F70091985F /* Assets.xcassets in Resources */,
 				6532DF66243434F50091985F /* Main.storyboard in Resources */,
 				6559313B243509B7002050AF /* DesarrolloVideojuegos3.pdf in Resources */,
+				65C15FAE2436DDEE0066ECF2 /* BookLogo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

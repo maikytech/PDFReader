@@ -29,6 +29,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "Cell")
         cell.textLabel?.text = cellContents[indexPath.row]
+        cell.imageView?.image = UIImage(named: "BookLogo.jpg")
         
         return cell
     }
