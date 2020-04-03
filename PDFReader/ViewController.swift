@@ -49,7 +49,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             //Instance of ViewController2
             let screen2:ViewController2 = segue.destination as! ViewController2
             screen2.namePDFRecieved = cellContents[idPDFSelectedReceived]
+        }
+    }
+    
+    //Edit Rows true
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
             
+        return true
+    }
+    
+    //Style of delete row.
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+            
+        if editingStyle == .delete {
+            
+            cellContents.remove(at: indexPath.row)
+            tableView.reloadData()
             
         }
     }
